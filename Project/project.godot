@@ -37,6 +37,11 @@ choices/reveal_delay=0
 choices/reveal_by_input=false
 save/autosave_delay=60.0
 text/autopauses={}
+layout/styles={
+"Default": {}
+}
+layout/default_style="Default"
+history/simple_history_enabled=false
 
 [editor_plugins]
 
