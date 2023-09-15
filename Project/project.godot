@@ -38,17 +38,7 @@ choices/reveal_by_input=false
 save/autosave_delay=60.0
 text/autopauses={}
 layout/styles={
-"Abel": {
-"export_overrides": {
-"normal_font": "\"res://themes/fonts/kurland/kurland.ttf\"",
-"text_size": "18.0"
-},
-"inherits": ""
-},
-"Default": {
-"export_overrides": {}
-},
-"Intro": {}
+"Default": {}
 }
 layout/default_style="Default"
 history/simple_history_enabled=false
