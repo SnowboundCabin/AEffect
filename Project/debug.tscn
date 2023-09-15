@@ -1,0 +1,4 @@
+[gd_scene format=3 uid="uid://boar8823o7vn6"]
+
+[node name="debug" type="Node2D"]
+rotation = 1.5708
