@@ -1,0 +1,162 @@
+{
+  "main": {
+    "id": "70fc09b18543cdb4",
+    "type": "split",
+    "children": [
+      {
+        "id": "4cd72f21483beb2a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d3f31646467c4892",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "f1be28eea6355800",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AEffect Script 0001.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "b97e8d80bf8566b3",
+    "type": "split",
+    "children": [
+      {
+        "id": "c32516810bd93360",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "01e30cb84a0c7b02",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a62b3f922b5da8b8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "e6c17df680107ea6",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e96f9cf34b973f27",
+    "type": "split",
+    "children": [
+      {
+        "id": "17e7cdefe8e82287",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b588930dcae49003",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "AEffect Script 0001.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "01ae5575edfdceae",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "AEffect Script 0001.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "73e35c72bcba84d5",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "9072ef8afda66d35",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "AEffect Script 0001.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "f1be28eea6355800",
+  "lastOpenFiles": [
+    "AEffect Script 0001.md"
+  ]
+}
