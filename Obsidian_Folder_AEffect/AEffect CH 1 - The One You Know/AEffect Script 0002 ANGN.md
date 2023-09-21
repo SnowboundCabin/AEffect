@@ -1,0 +1,1 @@
+Author's Note: I will no longer be beginning and ending scenes with Begin Notes and End Notes text, as doing so would be tedious. 

@@ -1,0 +1,14 @@
+[Begin Notes]:
+
+CH 1 - The One You Know
+
+Black screen with Sora/Abel text font and bleeps:
+“I had never been a religious person, but I prayed and prayed to see you again, 
+And somehow,
+It worked.”
+
+Narration: You stand before the mirror of your childhood room, grieving a father you barely knew. It’s making you reflect on all that’s happened. You change out of your black suit and into something a bit more comfortable as you continue to think.
+
+>Next: 0002
+
+[End Notes]
