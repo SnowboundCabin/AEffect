@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c3469cbaa22ee548",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "AEffect Script 0036.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "b5cc8a5eab6b5d34",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -159,34 +146,34 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "b5cc8a5eab6b5d34",
+  "active": "01e30cb84a0c7b02",
   "lastOpenFiles": [
-    "AEffect Script 0036.md",
+    "AEffect CH 2 - Greatest Trick",
+    "AEffect CH 1 - The One You Know/AEffect Script 0046 - Snow.md",
     "AEffect Planning.md",
+    "AEffect CH 1 - The One You Know/AEffect Script 0044 - Fallen.md",
+    "AEffect CH 1 - The One You Know/AEffect Script 0045.md",
+    "AEffect CH 1 - The One You Know/AEffect Script 0043.md",
+    "AEffect CH 1 - The One You Know/AEffect Script 0039.md",
+    "AEffect CH 1 - The One You Know/AEffect Script 0037.md",
+    "AEffect CH 1 - The One You Know/AEffect Script 0038.md",
+    "AEffect CH 1 - The One You Know/AEffect Script 0041 - Snake King.md",
+    "AEffect CH 1 - The One You Know/AEffect Script 0042.md",
+    "AEffect CH 1 - The One You Know/AEffect Script 0029.md",
+    "AEffect CH 1 - The One You Know/AEffect Script 0032.md",
+    "AEffect CH 1 - The One You Know/AEffect Script 0031.md",
+    "AEffect CH 1 - The One You Know/AEffect Script 0030.md",
+    "AEffect CH 1 - The One You Know/AEffect Script 0040.md",
+    "AEffect CH 1 - The One You Know/AEffect Script 0022 - Garden Maze.md",
+    "AEffect CH 1 - The One You Know/AEffect Script 0036.md",
+    "AEffect CH 1 - The One You Know/AEffect Script 0005.md",
+    "AEffect CH 1 - The One You Know/AEffect Script 0007.md",
+    "AEffect CH 1 - The One You Know/AEffect Script 0008.md",
     "AEffect CH 1 - The One You Know/AEffect Script 0004.md",
     "AEffect CH 1 - The One You Know/AEffect Script 0003.md",
     "AEffect CH 1 - The One You Know/AEffect Script 0035o.md",
     "AEffect CH 1 - The One You Know/AEffect Script 0001.md",
     "AEffect CH 1 - The One You Know/AEffect Script 0034.md",
-    "AEffect CH 1 - The One You Know/AEffect Script 0006.md",
-    "AEffect CH 1 - The One You Know/AEffect Script 0006 MCS.md",
-    "AEffect CH 1 - The One You Know/AEffect Script 0005.md",
-    "AEffect CH 1 - The One You Know/AEffect Script 0005 MCS.md",
-    "AEffect CH 1 - The One You Know/AEffect Script 0033.md",
-    "AEffect CH 1 - The One You Know/AEffect Script 0032.md",
-    "AEffect CH 1 - The One You Know/AEffect Script 0031.md",
-    "AEffect CH 1 - The One You Know/AEffect Script 0030.md",
-    "AEffect CH 1 - The One You Know/AEffect Script 0029.md",
-    "AEffect CH 1 - The One You Know/AEffect Script 0002 ANGN.md",
-    "AEffect CH 1 - The One You Know/AEffect Script 0001 ANGN.md",
-    "AEffect CH 1 - The One You Know/AEffect Script 0003 MCS.md",
-    "AEffect CH 1 - The One You Know/AEffect Script 0001 MCS.md",
-    "AEffect CH 1 - The One You Know/AEffect Script 0002.md",
-    "AEffect CH 1 - The One You Know/AEffect Script 0028.md",
-    "AEffect CH 1 - The One You Know/AEffect Script 0027.md",
-    "AEffect CH 1 - The One You Know/AEffect Script 0026.md",
-    "AEffect CH 1 - The One You Know/AEffect Script 0025.md",
-    "AEffect CH 1 - The One You Know/AEffect Script 0024.md",
     "AEffect CH 1 - The One You Know",
     "AEffect CH 1 - The One You Know/AEffect 0002",
     "AEffect CH 1 - The One You Know/AEffect 0001"
