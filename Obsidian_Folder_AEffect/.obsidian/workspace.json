@@ -8,12 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b5cc8a5eab6b5d34",
+            "id": "0837d4c369b65e4d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AEffect Planning.md",
+                "file": "AEffect CH 01 MCS All.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "213d87d4c2fab390",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "AEffect CH 1 - The One You Know/AEffect Script 0014 - Start.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "AEffect Planning.md",
+                "file": "AEffect CH 01 MCS All.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "AEffect Planning.md",
+                "file": "AEffect CH 01 MCS All.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "AEffect Planning.md"
+                "file": "AEffect CH 01 MCS All.md"
               }
             }
           }
@@ -146,11 +158,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "01e30cb84a0c7b02",
+  "active": "0837d4c369b65e4d",
   "lastOpenFiles": [
+    "AEffect CH 1 - The One You Know/AEffect Script 0014 - Start.md",
+    "AEffect CH 01 MCS All.md",
+    "AEffect CH 1 - The One You Know/AEffect Script 0001 MCS.md",
+    "AEffect CH 1 - The One You Know/AEffect Script 0036.md",
+    "AEffect Planning.md",
     "AEffect CH 2 - Greatest Trick",
     "AEffect CH 1 - The One You Know/AEffect Script 0046 - Snow.md",
-    "AEffect Planning.md",
     "AEffect CH 1 - The One You Know/AEffect Script 0044 - Fallen.md",
     "AEffect CH 1 - The One You Know/AEffect Script 0045.md",
     "AEffect CH 1 - The One You Know/AEffect Script 0043.md",
@@ -165,15 +181,12 @@
     "AEffect CH 1 - The One You Know/AEffect Script 0030.md",
     "AEffect CH 1 - The One You Know/AEffect Script 0040.md",
     "AEffect CH 1 - The One You Know/AEffect Script 0022 - Garden Maze.md",
-    "AEffect CH 1 - The One You Know/AEffect Script 0036.md",
     "AEffect CH 1 - The One You Know/AEffect Script 0005.md",
     "AEffect CH 1 - The One You Know/AEffect Script 0007.md",
     "AEffect CH 1 - The One You Know/AEffect Script 0008.md",
     "AEffect CH 1 - The One You Know/AEffect Script 0004.md",
     "AEffect CH 1 - The One You Know/AEffect Script 0003.md",
     "AEffect CH 1 - The One You Know/AEffect Script 0035o.md",
-    "AEffect CH 1 - The One You Know/AEffect Script 0001.md",
-    "AEffect CH 1 - The One You Know/AEffect Script 0034.md",
     "AEffect CH 1 - The One You Know",
     "AEffect CH 1 - The One You Know/AEffect 0002",
     "AEffect CH 1 - The One You Know/AEffect 0001"
