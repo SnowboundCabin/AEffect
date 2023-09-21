@@ -1,4 +1,72 @@
-[gd_scene format=3 uid="uid://boar8823o7vn6"]
+[gd_scene load_steps=7 format=3 uid="uid://boar8823o7vn6"]
 
-[node name="debug" type="Node2D"]
-rotation = 1.5708
+[ext_resource type="Script" path="res://3d_scene_manager.gd" id="1_obhgv"]
+[ext_resource type="Texture2D" uid="uid://br3c5ud7cymiu" path="res://test_objects/24x_cube_tex.png" id="2_k1tqm"]
+[ext_resource type="Texture2D" uid="uid://clbd8fo65fl2y" path="res://ui/backdrop.png" id="4_fftew"]
+
+[sub_resource type="ViewportTexture" id="ViewportTexture_janjv"]
+viewport_path = NodePath("SubViewport")
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_rnnhb"]
+albedo_texture = ExtResource("2_k1tqm")
+texture_filter = 0
+
+[sub_resource type="BoxMesh" id="BoxMesh_mhdbw"]
+material = SubResource("StandardMaterial3D_rnnhb")
+size = Vector3(2.4, 2.4, 2.4)
+
+[node name="debug" type="Node"]
+script = ExtResource("1_obhgv")
+
+[node name="SubViewport" type="SubViewport" parent="."]
+size = Vector2i(240, 339)
+
+[node name="Camera3D" type="Camera3D" parent="SubViewport"]
+transform = Transform3D(1, 0, 0, 0, 0.707107, 0.707107, 0, -0.707107, 0.707107, 0, 20, 20)
+keep_aspect = 0
+projection = 1
+current = true
+fov = 37.8493
+size = 2.4
+
+[node name="Backdrop" type="TextureRect" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("4_fftew")
+stretch_mode = 1
+
+[node name="ViewportRect" type="TextureRect" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -576.0
+offset_top = -324.0
+offset_right = -576.0
+offset_bottom = -324.0
+grow_horizontal = 2
+grow_vertical = 2
+scale = Vector2(2, 2)
+texture = SubResource("ViewportTexture_janjv")
+expand_mode = 1
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, -5.96047e-08, -8.74228e-08, 5.96047e-08, 1, -8.74228e-08, 8.74228e-08, 8.74228e-08, 1, 0, 0, 0)
+mesh = SubResource("BoxMesh_mhdbw")
+
+[node name="MeshInstance3D2" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, -5.96047e-08, -8.74228e-08, 5.96047e-08, 1, -8.74228e-08, 8.74228e-08, 8.74228e-08, 1, 0, 2.4, -2.4)
+mesh = SubResource("BoxMesh_mhdbw")
+
+[node name="MeshInstance3D3" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, -5.96047e-08, -8.74228e-08, 5.96047e-08, 1, -8.74228e-08, 8.74228e-08, 8.74228e-08, 1, -2.4, 2.4, -2.4)
+mesh = SubResource("BoxMesh_mhdbw")
+
+[node name="MeshInstance3D4" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, -5.96047e-08, -8.74228e-08, 5.96047e-08, 1, -8.74228e-08, 8.74228e-08, 8.74228e-08, 1, -2.4, 0, 0)
+mesh = SubResource("BoxMesh_mhdbw")
