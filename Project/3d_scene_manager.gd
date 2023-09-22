@@ -8,13 +8,7 @@ const VIEWPORT_SCALE = 2
 @onready var camera := $SubViewport/Camera3D
 
 func _ready():
-	resize(Vector2i(20, 10), 1)
-	await(get_tree().create_timer(5).timeout)
 	resize(Vector2i(20, 10), 2)
-	await(get_tree().create_timer(5).timeout)
-	resize(Vector2i(20, 10), 3)
-	await(get_tree().create_timer(5).timeout)
-	resize(Vector2i(20, 10), 4)
 
 
 func resize(size_in_tiles: Vector2i, scale = -1):
