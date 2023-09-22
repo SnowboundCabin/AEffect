@@ -34,4 +34,4 @@ Sora - Command/Support -  Weapon: Spear
 Maeve - Uber Tank/Low DPS - Weapon: Throwing Knives
 Connor - Highest DPS - Weapon: Portals/Axe 
 Billie - Minor Healing/Mid Damage - Weapon: Dual Sword 
-Floris - Bard/All Rounder - Weapon: Elemental 
+Floris - Bard/All Rounder - Weapon: Mic or Guitar/Elemental 
