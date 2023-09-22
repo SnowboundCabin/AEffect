@@ -1,0 +1,50 @@
+[gd_scene load_steps=6 format=3 uid="uid://dd4xp5c5qtaep"]
+
+[ext_resource type="Script" path="res://characters/world_character.gd" id="1_eqs3e"]
+[ext_resource type="Texture2D" uid="uid://b33b5fn7f4jrd" path="res://characters/sora/world/sora_idle.png" id="1_ygkqq"]
+[ext_resource type="Texture2D" uid="uid://o7ikq8t7jwir" path="res://characters/shadow.png" id="3_aiu06"]
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_bgyr7"]
+size = Vector3(1.8, 3.6, 1.8)
+
+[sub_resource type="BoxShape3D" id="BoxShape3D_13wrl"]
+size = Vector3(1.8, 1.8, 0.1)
+
+[node name="WorldCharacter" type="CharacterBody3D"]
+floor_constant_speed = true
+floor_snap_length = 1.0
+script = ExtResource("1_eqs3e")
+
+[node name="CharacterShape" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.8, 0)
+shape = SubResource("BoxShape3D_bgyr7")
+
+[node name="CharacterSprite" type="Sprite3D" parent="."]
+offset = Vector2(0, 24)
+pixel_size = 0.1
+shaded = true
+double_sided = false
+alpha_cut = 1
+texture_filter = 0
+texture = ExtResource("1_ygkqq")
+
+[node name="ShadowArm" type="SpringArm3D" parent="."]
+editor_description = "Snaps the drop shadow to the nearest ground."
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, -1, 0, 1, -4.37114e-08, 0, 0.1, 0)
+shape = SubResource("BoxShape3D_13wrl")
+spring_length = 24.0
+margin = 0.1
+
+[node name="Node3D" type="Node3D" parent="ShadowArm"]
+transform = Transform3D(1, 0, 0, 0, -4.37114e-08, 1, 0, -1, -4.37114e-08, 0, 0, 0)
+
+[node name="DropDecal" type="Decal" parent="ShadowArm/Node3D"]
+editor_description = "Drop shadow. Texture MUST be a power of 2, or the engine doesn't like it!"
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.6, 0)
+size = Vector3(3.2, 1.6, 3.2)
+texture_albedo = ExtResource("3_aiu06")
+modulate = Color(0, 0, 0, 0.498039)
+normal_fade = 0.999
+upper_fade = 1e-05
+lower_fade = 1e-05
+cull_mask = 1048574
