@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://boar8823o7vn6"]
+[gd_scene load_steps=7 format=3 uid="uid://boar8823o7vn6"]
 
 [ext_resource type="Texture2D" uid="uid://br3c5ud7cymiu" path="res://test_objects/24x_cube_tex.png" id="2_k1tqm"]
 [ext_resource type="PackedScene" uid="uid://dd4xp5c5qtaep" path="res://characters/world_character.tscn" id="4_m34nw"]
@@ -14,10 +14,6 @@ size = Vector3(2.4, 2.4, 2.4)
 [sub_resource type="BoxShape3D" id="BoxShape3D_l2j3k"]
 size = Vector3(2.4, 2.4, 2.4)
 
-[sub_resource type="Environment" id="Environment_e2q5e"]
-ambient_light_source = 2
-ambient_light_color = Color(1, 1, 1, 1)
-
 [sub_resource type="WorldBoundaryShape3D" id="WorldBoundaryShape3D_tglpv"]
 
 [node name="debug" type="Node"]
@@ -30,9 +26,6 @@ mesh = SubResource("BoxMesh_mhdbw")
 
 [node name="CollisionShape3D" type="CollisionShape3D" parent="MeshInstance3D4/StaticBody3D"]
 shape = SubResource("BoxShape3D_l2j3k")
-
-[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
-environment = SubResource("Environment_e2q5e")
 
 [node name="WorldFloor" type="StaticBody3D" parent="."]
 editor_description = "Lower world-boundary."
