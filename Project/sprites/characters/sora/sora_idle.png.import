@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://ddq45lwldybvq"
-path="res://.godot/imported/blue_texture.png-0c774813986c0820c646694cc77168e5.ctex"
+uid="uid://b33b5fn7f4jrd"
+path="res://.godot/imported/sora_idle.png-0681992840ef66354f6dae8e526cb3cd.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://blue_texture.png"
-dest_files=["res://.godot/imported/blue_texture.png-0c774813986c0820c646694cc77168e5.ctex"]
+source_file="res://sprites/characters/sora/sora_idle.png"
+dest_files=["res://.godot/imported/sora_idle.png-0681992840ef66354f6dae8e526cb3cd.ctex"]
 
 [params]
 

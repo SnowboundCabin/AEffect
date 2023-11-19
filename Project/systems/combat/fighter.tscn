@@ -1,0 +1,64 @@
+[gd_scene load_steps=8 format=3 uid="uid://dee3vc6i2jgpa"]
+
+[ext_resource type="Script" path="res://systems/combat/fighter.gd" id="1_eaqfl"]
+[ext_resource type="Script" path="res://ui/hover_ui.gd" id="1_g3rw4"]
+[ext_resource type="Texture2D" uid="uid://bn1aixa5c3p0a" path="res://ui/bars/health_empty.png" id="1_t0rlo"]
+[ext_resource type="Texture2D" uid="uid://rgcmuov1ws8b" path="res://ui/bars/health_full.png" id="2_nbqmr"]
+[ext_resource type="Texture2D" uid="uid://cttnfpqe8oqet" path="res://ui/bars/time_empty.png" id="3_k0bsp"]
+[ext_resource type="Texture2D" uid="uid://2xnhnn0ljhhh" path="res://ui/bars/time_full.png" id="4_04lbd"]
+[ext_resource type="Texture2D" uid="uid://b33b5fn7f4jrd" path="res://sprites/characters/sora/sora_idle.png" id="7_wsjuc"]
+
+[node name="Fighter" type="Node3D"]
+script = ExtResource("1_eaqfl")
+
+[node name="Marker3D" type="Marker3D" parent="."]
+script = ExtResource("1_g3rw4")
+
+[node name="Control" type="Control" parent="Marker3D"]
+layout_mode = 3
+anchors_preset = 0
+scale = Vector2(3, 3)
+
+[node name="FighterUI" type="VBoxContainer" parent="Marker3D/Control"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -15.0
+offset_top = 3.0
+offset_right = 15.0
+offset_bottom = 27.0
+grow_horizontal = 2
+theme_override_constants/separation = 0
+
+[node name="Health" type="TextureProgressBar" parent="Marker3D/Control/FighterUI"]
+layout_mode = 2
+value = 50.0
+stretch_margin_left = 3
+stretch_margin_top = 3
+stretch_margin_right = 3
+stretch_margin_bottom = 3
+texture_under = ExtResource("1_t0rlo")
+texture_progress = ExtResource("2_nbqmr")
+texture_progress_offset = Vector2(3, 3)
+
+[node name="Health2" type="TextureProgressBar" parent="Marker3D/Control/FighterUI"]
+layout_mode = 2
+value = 100.0
+allow_greater = true
+stretch_margin_left = 3
+stretch_margin_top = 3
+stretch_margin_right = 3
+stretch_margin_bottom = 3
+texture_under = ExtResource("3_k0bsp")
+texture_progress = ExtResource("4_04lbd")
+texture_progress_offset = Vector2(3, 3)
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+offset = Vector2(0, 24)
+pixel_size = 0.1
+shaded = true
+double_sided = false
+alpha_cut = 1
+texture_filter = 0
+texture = ExtResource("7_wsjuc")

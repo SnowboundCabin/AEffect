@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://b33b5fn7f4jrd"
-path="res://.godot/imported/sora_idle.png-07a39754805d1cdb2e7358b3a2555214.ctex"
+uid="uid://b8vdpwxmr4drg"
+path="res://.godot/imported/orange_texture.png-117a24da1728b7a13957bd9c84c53d66.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://characters/sora/world/sora_idle.png"
-dest_files=["res://.godot/imported/sora_idle.png-07a39754805d1cdb2e7358b3a2555214.ctex"]
+source_file="res://test_objects/orange_texture.png"
+dest_files=["res://.godot/imported/orange_texture.png-117a24da1728b7a13957bd9c84c53d66.ctex"]
 
 [params]
 
